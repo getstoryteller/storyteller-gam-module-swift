@@ -13,12 +13,12 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .upToNextMajor(from: "11.0.0")),
-        .package(url: "https://github.com/getstoryteller/storyteller-sdk-swift-package", exact: "10.13.2")
+        .package(url: "https://github.com/getstoryteller/storyteller-sdk-swift-package", exact: "10.13.3")
     ],
     targets: [
         .binaryTarget(name: "StorytellerGAMIntegration",
-                      url: "https://storyteller.azureedge.net/sdk-ios/xcframeworks/10.13.2/StorytellerGAMIntegration.zip",
-                      checksum: "ef9cf37b2876cc393dad0bbbe42e79c8358e7cda8174bd9526fb5f1b2d172ef9"),
+                      url: "https://storyteller.azureedge.net/sdk-ios/xcframeworks/10.13.3/StorytellerGAMIntegration.zip",
+                      checksum: "d5908b73b6de7138a53909de6d7bafd90d6a257bb6885053fd62572127ff28ed"),
         .target(
             name: "StorytellerGAMTarget",
             dependencies: [
